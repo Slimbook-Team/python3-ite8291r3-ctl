@@ -19,6 +19,11 @@ The following devices have been reported to work:
 
 If you believen your device should be supported, but it is not, please open an issue. You can run `ite8291r3-ctl query --devices` to see the supported devices found in the system. Alternatively, you can use `lsusb -d 048d:`.
 
+# Install Debian package
+```
+sudo apt-add-repository ppa:slimbook/slimbook
+sudo apt install ite8291r3-ctl
+```
 
 # Dependencies
 ### Required
