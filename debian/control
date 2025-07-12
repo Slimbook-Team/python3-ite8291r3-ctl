@@ -1,0 +1,17 @@
+Source: ite8291r3-ctl
+Section: utils
+Priority: optional
+Maintainer: Slimbook <dev@slimbook.es>
+Build-Depends: debhelper-compat (= 13), dh-python, python3-setuptools, python3-all
+Standards-Version: 4.6.0
+Homepage: <https://https://github.com/pobrn/ite8291r3-ctl>
+
+Package: python3-ite8291r3-ctl
+Architecture: all
+Depends: ${python3:Depends}, ${misc:Depends}
+Description: ITE 8291 (rev 0.03) userspace driver (Python 3)
+ This package ite8291r3-ctl is a userspace driver for the 
+ ITE 8291 (rev 0.03) RGB keyboard backlight controller.
+ .
+ This package installs the library for Python 3.
+
