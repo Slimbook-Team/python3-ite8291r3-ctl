@@ -1,3 +1,9 @@
+ite8291r3-ctl (0.3+slimbook1) noble; urgency=medium
+
+  * Added 0x600B product ID
+
+ -- Slimbook <dev@slimbook.com>  Thu, 05 Feb 2026 11:17:21 +0100
+
 ite8291r3-ctl (0.3+slimbook0) noble; urgency=medium
 
   * Initial release. 
